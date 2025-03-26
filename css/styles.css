@@ -121,8 +121,22 @@ img {
 /* main */
 
 .main-title-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
   padding-top: 188px;
   padding-bottom: 188px;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(/images/people-office\ 1.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  max-width: 1440px;
 }
 
 .main-title-effective {
@@ -130,8 +144,8 @@ img {
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
-  text-align: center;
   color: #fff;
+  text-align: center;
   max-width: 496px;
   margin-bottom: 48px;
   margin-left: auto;
@@ -152,6 +166,7 @@ img {
   border-radius: 4px;
   height: 56px;
   border: none;
+  margin-bottom: 48px;
   margin-left: auto;
   margin-right: auto;
 }
